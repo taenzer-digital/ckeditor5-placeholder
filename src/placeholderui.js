@@ -28,7 +28,7 @@ export default class PlaceholderUI extends Plugin {
       dropdownView.buttonView.set({
         // The t() function helps localize the editor. All strings enclosed in t() can be
         // translated and change when the language of the editor changes.
-        label: t("Placeholder"),
+        label: t("Platzhalter"),  //TODO figure out how to translate this the right way.
         tooltip: true,
         withText: true,
       });
